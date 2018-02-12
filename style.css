@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.container{
+  width: 50%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 33.33%;
+  height: 33.33%;
+  float: left;
+  font-size: 150px;
+  text-align: center;
+}
+
+.box1, .box2, .box7, .box8 {
+  border-right: 5px solid black;
+}
+
+.box1, .box2,.box3, .box4, .box5, .box6 {
+  border-bottom: 5px solid black;
+}
+
+.box4, .box5 {
+  border-right: 5px solid black;
+}
